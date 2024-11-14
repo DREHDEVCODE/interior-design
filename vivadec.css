@@ -1,0 +1,344 @@
+*{
+    padding: 10px;
+    margin: 0; 
+}
+.heading{
+display: flex;
+/* padding-left: 30px; */
+margin-top: 10px;
+/* border: 1px solid blue; */
+}
+.logo{
+    width: 64px;
+    height: 48px;
+}
+.navbar{
+    display: flex;
+    margin-left: 300px;
+}
+.tab{
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    width: 93px;
+    height: 30px;
+    margin-left: 0px;
+}
+.cta{
+    width: 106px;
+    height: 46px;
+    border-radius: 4px;
+    margin-left: 220px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+.head-body{
+    /* border: 1px solid black; */
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.body-wrap h1{
+    font-size: 100px;
+    width:703px;
+    height: 110px;
+}
+.body-wrap p{
+    font-size: 20px;
+    width: 550px;
+}
+.wrap-cta{
+    width: 129px;
+    height: 46px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+.wrap-project{
+    margin-left: -30px;
+    margin-top: 20px;
+    width: 500px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+.project-tag h2{
+    width: 65px;
+    font-size: 56px;
+    font-weight: 700;
+    color: grey;
+}
+.project-tag p{
+    color: grey;
+    width: 99px;
+    font-size: 12px;
+    margin-top: -20px;
+    text-align: center;
+}
+.image-wrap img{
+    margin-top: -20px;
+    width: 375px;
+    height: 275px; 
+    border-radius: 10px;
+}
+.shit{
+    /* border: 1px solid blue; */
+    height: 230px;
+    position: relative;
+    width: 500px;
+    margin-left: -200px;
+}  
+.image1, .image2, .image3{
+    position: absolute;
+    top:5;
+    left: 0;
+}
+.shit .image1{
+    z-index: 1;
+    width: 500px;
+    height: 250px;
+   
+}
+.shit .image2{
+    z-index: 0;
+    width: 100px;
+    height: 100px;
+    margin-top: -40px;
+    margin-left: -20px;
+}
+.shit .image3{
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+   margin-top: 130px;
+   margin-left: 470px;
+}
+.services-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.tag{
+    margin-left: -15px;
+    width: 335px;
+    height: 120px;
+    display: flex;
+}
+.tag img{
+    width: 60px;
+    height: 60px;
+}
+.tagtext p{
+    font-size: 14px; 
+}
+.Interior{
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+.Interior-pic img{
+    width: 520px;
+    height: 470px; 
+}
+.Interior-wrap{
+    width: 520px;
+    height: 470px;
+}
+.Interior-content h2{
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 600px;
+    height: 120px;
+}
+.Interior-content p{
+    font-size: 19px;
+    font-weight: 500px;
+}
+.Interior-text{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.Interior-text p{
+    font-size: 20px;
+    font-weight: 600px;
+}
+.Interior-content-cta{
+    width: 129px;
+    height: 46px;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+.dream{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.dream-text h2{
+    font-size: 48px;
+    font-weight: 600px;
+}
+.dream-pic img{
+    width: 480px;
+    height: 520px;
+}
+.dreamtag{
+    width: 570px;
+    height: 100px;
+    display: flex;
+}
+.dreamtag img{
+    width: 40px;
+    height: 40px;
+}
+.dreamtagtext h2{
+    margin-bottom: -10px;
+    font-size: 22px; 
+}
+.dreamtagtext p{
+    font-size: 22px; 
+    font-weight: 500px;
+}
+.testimony-text h2{
+     font-size: 56px;
+     width: 600px;
+}
+.testimony-wrap{
+    height: 95vh; 
+    position: relative;
+    display: flex;
+}
+.testimony-wrap-pic.image0,.testimony-text h2{
+    position: absolute;
+    top:10px;
+    left:500px;   
+}
+.testimony-wrap-pic.image0, .testimony-wrap-text, .testimony-wrap-text1{
+    position: absolute;
+    top:0;
+    left: 150px;
+}
+.testimony-wrap-pic .image0{
+    width: 400px; 
+    height: 400px;
+ }
+.testimony-wrap-text{
+    margin-top: 160px;
+    margin-left: 120px;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 350px;
+}
+.testimony-wrap-text1{
+    margin-top: 160px;
+    margin-left: 600px;
+    border: 1px solid blue;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 350px;
+}
+.testimony-wrap-text h2, .testimony-wrap-text1 h2{
+    font-size: 60px;
+}
+.testimony-wrap-text p, .testimony-wrap-text1 p{
+    font-size: 22px;
+}
+.testimonytag{
+    width: 570px;
+    height: 100px;
+    display: flex;
+   margin-top: 5px;
+    /* justify-content: center; */
+}
+.testimonytag img{
+    width: 40px;
+    height: 40px;
+}
+.testimonytagtext h2{
+    font-size: 28px; 
+  
+}
+.testimonytagtext p{
+    font-size: 16px; 
+    font-weight: 500px;
+}
+.newsfeed-content{
+    width: 725px;
+    margin: 0 auto;
+    justify-items: center;
+}
+.newsfeed h2{
+    font-size: 58px;
+    font-weight: 500px;
+    text-align: center;
+}
+.newsfeed p{
+    font-size: 24px;
+    width: 630px;
+    font-weight: 500;
+    text-align: center;
+}
+.subscribe{
+    width: 550px;
+    height: 30px;
+    margin-top: 5px;
+    display: flex;
+    background-color: rgb(248, 244, 244);
+   
+}
+.subscribe img{
+    width: 20px;
+    height: 20px;
+   margin-bottom: 5px;
+}
+.subscribe input{
+    width: 400px;
+    height: 12px;
+    border: none;
+    font-size: 14px;
+}
+.ct{
+    width: 106px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.info{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.bus-info{
+    width: 300px;
+    color: whitesmoke;
+}
+.bus-info-text{
+    margin-top: 70px; 
+}
+.bus-info-text img{
+    width: 100px;
+}
+.bus-info- p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.bus-info-wrap{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
